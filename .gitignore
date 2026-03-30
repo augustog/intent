@@ -1,0 +1,7 @@
+secrets.json
+audit.jsonl
+token
+__pycache__/
+*.egg-info/
+.venv/
+dist/
