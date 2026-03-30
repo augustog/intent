@@ -30,7 +30,7 @@ curl --unix-socket $INTENT_SOCK -H "Authorization: Bearer $INTENT_TOKEN" http://
 
 Intent is one layer in a harness that combines nanoclaw's simplicity (small codebase, container-as-freedom-zone) with strict credential isolation:
 
-- **Container** (`--network none`): full bash/python/compute freedom, optiona `--network none` for zero exfiltration channel
+- **Container**: full bash/python/compute freedom, optional `--network none` for zero exfiltration channels.
 - **Proxy** (this project): holds credentials, exposes tools over HTTP, harness-agnostic
 - **Agent types**: declarative YAML configs that specify goal of a sub-agent and which tools they get.
 
